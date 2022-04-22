@@ -20,3 +20,7 @@ It is divided into 3 parts
   1. Get the temperature from the environment
   2. check if it is greater than the ambient temperature of the place the user is in.
   3. If it is greater, switch on the cooling system (fan here). If not don't do anything.
+
+## Circuit Diagram
+![Temperature based Cooling System](https://user-images.githubusercontent.com/60928280/164615895-86ad5dda-88eb-411b-923b-96a57982699f.png)
+

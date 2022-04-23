@@ -3,24 +3,35 @@
   * Its summer time! we all know how hot it is now-a-days.
   * We need to make sure that the environment is cool so that we can live our life easy in this harsh summer time.
   * I have proposed a model that does the same
-## The Model
-  * The model consists of a cooling appliance (fan here) controlled by a temperature sensor (mimicked using an RTD).
-  * The entire process is controlled by an Atmega328.
-## COMPONENTS USED
-|S.no.|Components used|
-|:--:|:--:|
-|1.|Atmega328|
-|2.|RTD|
-|3.|DC MOTOR|
-|4.|Fixed source (5V)|
-|5.|Resistors|
 
-## The entire process
-It is divided into 3 parts
-  1. Get the temperature from the environment
-  2. check if it is greater than the ambient temperature of the place the user is in.
-  3. If it is greater, switch on the cooling system (fan here). If not don't do anything.
+## SWOT ANALYSIS
+### ___Strengths___
+ 1.  Simple and easy way to maintain ambient temperature of the room
+ 2.  Ambient temperature can be changed depending on the season. 
+ 3.  An Economical package of effective cooling system that is affordable for all
+### ___Weakness___
+ 1. Cannot have control over more than one appliance.
+ 2. Setting of ambient temperature is not accurate (Exact temperature cannot be predicted by all).
+ 3. Extreme teperatures can damage the system.
+### ___Opportunities___
+ 1. Provides an opportunity to automate cooling process of surrounding environment.
+ 2. also opens a gateway for heating system for places where there is extreme cold weather.
+### ___Threats___
+ 1. Susceptible to being controlled by unauthorised people.
+ 2. Power supply issues can dampen the efficiency of this system.
 
-## Circuit Diagram
-![Temperature based Cooling System](https://user-images.githubusercontent.com/60928280/164615895-86ad5dda-88eb-411b-923b-96a57982699f.png)
+# 4 W's and 1 H
+## __What?__
+ This system is all about detecting the ambient temperature of the surroundings and bringing it down to ambient levels if it greater than the abmbient temperature.
+## __Who?__
+ This system can be used by anyone. Workers, homemakers, etc. can use this
+## __When?__
+ This system is mostly used in summer, when the temperature is hot.
+## __Where?__
+ this system can be used anywhere. it can be sued in schools, offices, malls, theatres, etc.
+## __How?__
+ This system senses the ambient temperature by using a temperature sensor (mimicked as an RTD here). This data is sent to the microcontorller, which check if the sensed temperature is greater than the ambient temperature. If it is so, then it sets the cooling system as ON. Else it remains OFF.
+ 
+ # High Level Requirements
+
 

@@ -33,5 +33,13 @@
  This system senses the ambient temperature by using a temperature sensor (mimicked as an RTD here). This data is sent to the microcontorller, which check if the sensed temperature is greater than the ambient temperature. If it is so, then it sets the cooling system as ON. Else it remains OFF.
  
  # High Level Requirements
+| ID | Description | Category | 
+| ----- | ----- | ------- | 
+|HLR01|the system should be able to detect temperature|technical|  
+|HLR02|The system should be able to trigger the cooling system|technical|
 
-
+## LOW LEVEL REQUIREMENTS
+ | Parameters | DESCRIPTION                                             | STATUS      |    
+|-------------|--------------------------------------------------------------|------------- |
+ | Accuracy |It should accurately detect the temperature set by the user  | Implemented    |
+|  Performanace       |The system should trigger the cooling system accurately as specified by the user| Implemented    |
